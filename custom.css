@@ -1,12 +1,14 @@
 /* var */
 :root{
-    --blue-dark:#1d4983;
-    --blue-light: rgb(0, 110, 255);
+    --blue-dark: #19437A;
+    --blue-light: #0187FF;
     --gray: #999;
     --gray-light: #f8f5f5;
     --red: rgb(255, 0, 38);
 }
-
+li{
+    list-style:none;
+}
 
 .carousel-dark slide{
     height: 50%;
@@ -20,6 +22,7 @@
 }
 .img-title{
     width: 200px;
+    height: 50px;
 }
 .button-shop{
     border: 4px solid var(--blue-dark);
@@ -66,7 +69,7 @@
 }
 .bar-search{
     position: relative ; 
-    left: 15px;
+    left: 57px;
     background-color: #fffcfce8;
     border-radius: 5px;
     width: 350px;
@@ -149,6 +152,15 @@
     border: none;
     border-radius: 5px;
 }
+.detail{
+    width: 100%;
+}
+.div-df{
+    width: 100%;
+    border: 2px solid var(--blue-light);
+    border-radius: 20px;
+margin-left: 5%;
+}
 .icon-blue{
   font-size: 20px;
     color: var(--blue-dark);
@@ -157,10 +169,7 @@
     border-right:1px solid var(--gray-light) ;
     width: 200px;
   }
-  .div-df{
-    border: 2px solid var(--blue-light);
-    border-radius: 20px;
-  }
+
   .text-align-end{
     text-align: start;
   }
@@ -245,7 +254,7 @@
     height: 1px;
 }
 .div-detailsAFeatures{
-    justify-content: center;
+
 }
 .div-button-exterior{
     justify-items: center;
@@ -258,6 +267,29 @@
     background-color: var(--blue-dark);
     border-radius: 50px;
 }
+.section-responsive-phone{
+    margin-left: 10%;
+}
+.alert-card{
+    background-color: #fff;
+    position: relative;
+    bottom: 28px;
+    left: 70px;
+   
+    width: 50px;
+    height: 20px;
+
+}
+.item-alert{
+font-size: 12px;
+position: relative;
+bottom: 5px;
+}
+.card-fall{
+	border: 10px solid #EFEFEF;
+    width: 140px;
+}
+
 
 @media  (max-width: 600px) and  (min-width: 200px) {
     .section-slide{
@@ -271,7 +303,7 @@
    
     }
     .div-df{
-        margin-right: 50px !important; 
+        margin-right: 20%; 
     }
     .div-hearth{
         left: 10px;
@@ -281,4 +313,26 @@
         right: 20px;
         bottom: 60px;
     }
+    .section-responsive-phone{
+       width: 50%;
+    }
+    .img-carousel{
+        width: 90%;
+    }
+    .div-df{
+        width: 70%;
+    }
+    .div-detailsAFeatures{
+        justify-content: center;
+    }
+    .sumbmit-now{
+        position: relative;
+   right: 50%;
+   justify-content: center;
+    }
+    .words-responsive{
+        position: relative;
+        left: 30px;
+    }
+
 }

@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- ===== Link Swiper's CSS ===== -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
 
     <!-- ===== Fontawesome CDN Link ===== -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
-        
+
+
+    <!-- ===== Fontawesome CDN Link ===== -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"/>
+        <!-- jquery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" ></script>
     <!-- ===== CSS for slide ===== -->
     <link rel="stylesheet" href="slide.css">
     <link rel="stylesheet" href="custom.css">
@@ -27,104 +32,108 @@
         <P class=" my-0 py-0">We apologize for any inconvenience and we will resume normal business hours on Thursday, December 26th.</P>
     </header>
     <!-- nav bar principal  -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light nav-div-pri">
-        <div class="container-fluid">
-          <img src="img/Layer 538.jpg" class="img-title mx-3" alt="">
-   
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <a class="navbar-brand button-shop" href="#"> <span class="text-blue"> SHOP </span></a>
-              <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 <b class="item-nav"> STYLES <i class="fa-solid fa-chevron-down"></i></b>          
-                 </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <b class="item-nav"> COLLECTIONS <i class="fa-solid fa-chevron-down"></i> </b> 
+ <!-- Navbar-->
+
+<nav class="navbar navbar-expand-xxl navbar-light style=background-color: #FFFFFF;">
+  <div class="container__nav d-flex">
+
+      <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+
+      </button>
+     
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <img src="img/Layer 538.jpg" class="img-title mx-3" alt="">
+            <a class="navbar-brand">
+  
+            </a>
+            <br>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <b class="item-nav"> STYLES <i class="fa-solid fa-chevron-down"></i></b>          
                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 <b class="item-nav"> GARAGE PLANS <i class="fa-solid fa-chevron-down"></i></b>
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 <b class="item-nav"> SERVICES <i class="fa-solid fa-chevron-down"></i></b>             </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                 <b class="item-nav"> LEARN <i class="fa-solid fa-chevron-down"></i> </b>          </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              
-            </ul>
-           <section class="row">
-            <div class="col-12 ms-3">
-              <i class="fa-solid fa-phone-volume text-blue-dark"></i>
-              <b>1-888-501-7526</b>
-              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" fill="currentColor" class="bi bi-envelopeicons-nav mb-3  mx-3" viewBox="0 0 16 16">
-                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
-              </svg>
-              <i class="fa-regular fa-circle-user icons-nav mx-3"></i>
-              <i class="fa-regular fa-heart icons-nav mx-3"></i>
-              <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" fill="currentColor" class="bi bi-cart2 icons-nav mb-3  mx-3" viewBox="0 0 16 16">
-                <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
-              </svg>
-            </div>
-            <div class="col-12">
-              <form class="d-flex">
-                <input class="form-control me-2 bar-search" type="search" placeholder="Search Flooplans by Keyboard or Plan #" aria-label="Search">   
-                  <button class="btn btn-outline-success btn-search" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search btn-search" viewBox="0 0 16 16">
-                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-                </svg></button>
-
-              </form>
-            </div> 
- 
-           </section>
-
-          
-
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <b class="item-nav"> COLLECTIONS <i class="fa-solid fa-chevron-down"></i> </b> 
+             </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <b class="item-nav"> GARAGE PLANS <i class="fa-solid fa-chevron-down"></i></b>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <b class="item-nav"> SERVICES <i class="fa-solid fa-chevron-down"></i></b>             </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+               <b class="item-nav"> LEARN <i class="fa-solid fa-chevron-down"></i> </b>          </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+         <section class="row">
+          <div class="col-11 section-responsive-phone">
+            <i class="fa-solid fa-phone-volume text-blue-dark"></i>
+            <b>1-888-501-7526</b>
+            <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" fill="currentColor" class="bi bi-envelopeicons-nav mb-3  mx-3" viewBox="0 0 16 16">
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+            </svg>
+            <i class="fa-regular fa-circle-user icons-nav mx-3"></i>
+            <i class="fa-regular fa-heart icons-nav mx-3"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" width="31" height="30" fill="currentColor" class="bi bi-cart2 icons-nav mb-3  mx-3" viewBox="0 0 16 16">
+              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5zM3.14 5l1.25 5h8.22l1.25-5H3.14zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0zm9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0z"/>
+            </svg>
           </div>
-        </div>
-      </nav>
-      <hr>
+          <div class="col-11">
+            <form class="d-flex">
+              <input class="form-control me-2 bar-search" type="search" placeholder="Search Flooplans by Keyboard or Plan #" aria-label="Search">   
+                <button class="btn btn-outline-success btn-search" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search btn-search" viewBox="0 0 16 16">
+                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+              </svg></button>
+            </form>
+          </div> 
+         </section>
+    </div>
+  </div>
+</div>
+</nav>
       <!-- -----------------------main-------------------------- -->
+
       <div class="container-fluid flex-sm-shrink-1">
+
       <div class="row">
 
       <!-- photo corrousel -->
@@ -157,7 +166,7 @@
     <section class="section-slide">
       <div class="swiper mySwiper container-s">
         <div class="swiper-wrapper content-s">
-          <div class="swiper-slide card-s">
+          <div class="swiper-slide card-s ">
             <div class="card-content">
               <div class="image">
                 <img src="img/slide 3.jpg" alt="" class="img-slide">
@@ -230,6 +239,7 @@
         slidesPerGroup: 5,
         loop: true,
         loopFillGroupWithBlank: true,
+        
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
@@ -238,6 +248,8 @@
           nextEl: ".swiper-button-next",
           prevEl: ".swiper-button-prev",
         },
+        
+
       });
     </script>
   <!-- end slide -->
@@ -287,7 +299,7 @@
     <i class="fa-solid fa-car-rear icon-blue "></i> <br>
     <span>Car <b>3</b> </span>
   </section>
-  <section class="col-lg-1 col-md-4 col-sm-4 mx-3 div-icons-house">
+  <section class="col-lg-1 col-md-4 col-sm-4 mx-3">
 <i class="fa-solid fa-up-right-from-square icon-blue "></i> <br>
     <span>Dep <b>78' 1"</b> </span>
   </section>
@@ -391,9 +403,17 @@
 </div>
 <!-- fall move-in specials now -->
 
-<div class="col-sm-12 col-md-6 col-lg-1 px-0 border-card">
-  <div class="card card-left" style="width: 8rem;">
-    <div class="card-body">
+<div class="col-sm-12 col-md-6 col-lg-1 px-0 border-card ">
+  <div class="card card-left  " style="width: 8.2rem;">
+    <div class="card-body card-fall">
+      <div class="alert-card row">
+        <div class="col-3">
+          <i class="fa-solid fa-info text-blue-light item-alert"></i>
+        </div>
+        <div class="col-3">
+          <i class="fa-solid fa-xmark text-blue-light item-alert"></i>
+        </div>
+      </div>
       <h5 class="card-title">Fall
         Move-in
         Specials
@@ -411,11 +431,11 @@
 
 
 <div class="row mt-1 div-detailsAFeatures ">
-  <div class="col-lg-5 col-sm-12 div-df my-4 ms-3 w-70">
-    <h2 class="text-blue-dark py-3 px-3 title-feature"> <b>DETAILS</b> </h2>
+  <div class="col-lg-5 col-sm-12 div-df my-4 detail">
+    <h2 class="text-blue-dark py-3 px-4 title-feature"> <b>DETAILS</b> </h2>
     <div class="row"> 
       <!-- segundo row -->
-      <div class="col-lg-4 col-sm-5 ps-3">
+      <div class="col-lg-4 col-sm-5 ps-5">
         <span>
           TOTAL HEATED AREA: <br> <br>
           FIRST FLOOR: <br> <br>
@@ -430,9 +450,9 @@
         </span>
 
       </div>
-      <div class="col-lg-2 col-sm-5 ps-5">
-<span class="ps-3">
-  <b>2,287 sq. ft.</b>  <br> <br>
+      <div class="col-lg-3 col-sm-5 ps-4">
+<span class="ps-4">
+<b>2,287 sq. ft.</b>  <br> <br>
 <b>1,317 sq. ft.</b>  <br> <br>
 <b> 745 sq. ft</b> <br> <br>
 <b>225 sq. ft.</b>  <br> <br>
@@ -445,14 +465,14 @@
 </span>
       </div>
 <!-- col-space -->
-      <div class="col-lg-1 col-sm-0"></div>
+      <!-- <div class="col-lg-1 col-sm-0"></div> -->
       <div class="col-lg-3 col-sm-5">
-        <span class=" ">
-          DEPTH: <br> <br>
-          HEIGHT: <br> <br>
-          FOUNDATION: <br> <br>
-          MAIN ROOF PITCH: <br> <br>
-          FRAMING:  <br> <br>
+        <span class="">
+          <span class="words-responsive"> DEPTH:</span>  <br> <br>
+         <span class="words-responsive">   HEIGHT:</span> <br> <br>
+          <span class="words-responsive"> FOUNDATION: </span> <br> <br>
+         <span class="words-responsive">  MAIN ROOF PITCH:</span>  <br> <br>
+          <span class="words-responsive"> FRAMING: </span>  <br> <br>
         </span>
       </div>
       <div class="col-lg-2 col-sm-5">
@@ -467,39 +487,39 @@
     </div>
   </div>
   <div class="col-lg-4 col-sm-12  div-df  ms-3 my-4 w-70 ">
-    <h5 class="icon-blue pt-3 px-3 title-feature">FEATURES</h5>
+    <h5 class="icon-blue pt-3 px-4 title-feature">FEATURES</h5>
     <div class="ps-3">
       <div class="row"> 
         <div class="col-lg-1"></div>
          <div class="col-lg-5 div-features py-2">
-          <i class="fa-solid fa-bed icon-blue"></i> <span>BEDROOMS</span> 
+          <i class="fa-solid fa-bed icon-blue words-responsive"></i> <span class="words-responsive">BEDROOMS</span> 
          </div>
-      <div class="col-lg-5 div-features py-2">
+      <div class="col-lg-5 div-features py-2 words-responsive">
         <b>Jack & jill Masters Main Floor Split Bedrooms</b> 
       </div> </div>
       <div class="row "> 
         <div class="col-lg-1"></div>
          <div class="col-lg-5 div-features py-4">
-          <i class="fa-solid fa-warehouse icon-blue"></i> <span>GARAGE</span> 
+          <i class="fa-solid fa-warehouse icon-blue words-responsive"></i> <span class="words-responsive">GARAGE</span> 
          </div>
-      <div class="col-lg-5 div-features py-4">
+      <div class="col-lg-5 div-features py-4 words-responsive">
         <b> Side Entry Garage</b>
       </div> </div>
       <div class="row "> 
         <div class="col-lg-1"></div>
          <div class="col-lg-5 div-features py-4">
-          <i class="fa-solid fa-kitchen-set icon-blue"></i> <span>KITCHEN </span>  
+          <i class="fa-solid fa-kitchen-set icon-blue words-responsive"></i> <span class="words-responsive">KITCHEN </span>  
          </div>
-      <div class="col-lg-5 div-features py-4">
+      <div class="col-lg-5 div-features py-4 words-responsive">
         <b>Kitchen Island Open Floor Plan</b>
       </div> </div>
       <div class="row " > 
 
         <div class="col-lg-1"></div>
-        <div class="col-lg-5 div-features py-4">
-        <i class="fa-solid fa-soap icon-blue"></i>  <span> LAUNDRY</span>
+        <div class="col-lg-5 div-features py-4 words-responsive">
+        <i class="fa-solid fa-soap icon-blue"></i>  <span class="words-responsive"> LAUNDRY</span>
       </div>
-      <div class="col-lg-5 div-features py-4">
+      <div class="col-lg-5 div-features py-4 words-responsive">
         <b>Laundry On Main Floor</b>
       </div> 
     </div>
@@ -507,18 +527,18 @@
 
         <div class="col-lg-1"></div>
          <div class="col-lg-5 div-features py-4">
-          <i class="fa-solid fa-soap icon-blue"></i> <span>OUTDOOR</span>  
+          <i class="fa-solid fa-soap icon-blue words-responsive"></i> <span class="words-responsive">OUTDOOR</span>  
          </div>
-      <div class="col-lg-5 div-features py-4">
+      <div class="col-lg-5 div-features py-4 words-responsive">
         <b>Front Porch Rear Porch Warp Around Porch</b>
       </div> </div>
       <div class="row "> 
 
         <div class="col-lg-1"></div>
          <div class="col-lg-5  py-4">
-          <i class="fa-solid fa-cube  icon-blue"></i>  <span>ROOMS</span> 
+          <i class="fa-solid fa-cube  icon-blue words-responsive"></i>  <span class="words-responsive">ROOMS</span> 
          </div>
-      <div class="col-lg-5  py-4">
+      <div class="col-lg-5  py-4 words-responsive">
         <b>Bonus Room Mud Room</b>
       </div> 
     </div>
@@ -529,16 +549,16 @@
 <!-- finished details & features -->
 <section class="py-5 px-5">
 <h2 class="py-1"><b>WHAT'S INCLUDED IN THESE PLANS?</b></h2>
-<p> <input type="checkbox" name="" class="checkbox-circle" id="checkbox-circle"> Floorplan layout with all window/door schedules as well as general notes pertaining to IRC code</p>
-<p> <input type="checkbox" name="" class="checkbox-circle" id="checkbox-circle"> Kitchen cabinet elevations</p>
-<p> <input type="checkbox" name="" class="checkbox-circle" id="checkbox-circle"> Exterior elevations, roofplan and typical attic framing detail</p>
-<p> <input type="checkbox" name="" class="checkbox-circle" id="checkbox-circle"> Foundation plans that also show the ceiling joists layout overlaid</p>
-<p> <input type="checkbox" name="" class="checkbox-circle" id="checkbox-circle"> Electrical plan/legend</p>
+<p> <input type="checkbox" name="" class="checkbox-circle form-check-input" id="checkbox-circle"> Floorplan layout with all window/door schedules as well as general notes pertaining to IRC code</p>
+<p> <input type="checkbox" name="" class="checkbox-circle form-check-input" id="checkbox-circle"> Kitchen cabinet elevations</p>
+<p> <input type="checkbox" name="" class="checkbox-circle form-check-input" id="checkbox-circle"> Exterior elevations, roofplan and typical attic framing detail</p>
+<p> <input type="checkbox" name="" class="checkbox-circle form-check-input" id="checkbox-circle"> Foundation plans that also show the ceiling joists layout overlaid</p>
+<p> <input type="checkbox" name="" class="checkbox-circle form-check-input" id="checkbox-circle"> Electrical plan/legend</p>
 
 </section>
 <!-- finished WHAT'S INCLUDED IN THESE PLANS? -->
 <section class="question-section">
-  <h2 class="text-center py-2"><b>Ask Us A Question</b></h2>
+  <h2 class="text-center py-5"><b>Ask Us A Question</b></h2>
   <div class="row">
     <div class="col-lg-6 col-sm-12 ps-4">
       <form action="GET">
@@ -880,8 +900,7 @@
         <div class="col-lg-3 col-md-4 col-sm-6 div-icons-house py-2">
           <i class="fa-solid fa-bath icon-blue ps-3"></i> <br>
           <span>Bath <b>2</b> </span>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-6  div-icons-house py-2">
+        </div>        <div class="col-lg-3 col-md-4 col-sm-6  div-icons-house py-2">
           <i class="fa-solid fa-car-rear icon-blue ps-3"></i> <br>
           <span>Car <b>3</b> </span>
         </div>
@@ -907,6 +926,19 @@
 </section>
 </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<!-- scrip slider slick -->
+<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
 </body>
 </html>

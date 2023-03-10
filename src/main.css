@@ -2234,7 +2234,7 @@ textarea.form-control-lg {
           print-color-adjust: exact;
 }
 .form-check-input[type=checkbox] {
-  border-radius: 0.25em;
+  border-radius: 100%;
 }
 .form-check-input[type=radio] {
   border-radius: 50%;
@@ -2250,9 +2250,11 @@ textarea.form-control-lg {
 .form-check-input:checked {
   background-color: #0d6efd;
   border-color: #0d6efd;
+
 }
-.form-check-input:checked[type=checkbox] {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='m6 10 3 3 6-6'/%3e%3c/svg%3e");
+.form-check-input:checked[type=checkbox] + label  {
+  background:url("https://pbs.twimg.com/profile_images/550291079719698432/LbybHjIh.jpeg")
+
 }
 .form-check-input:checked[type=radio] {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3e%3ccircle r='2' fill='%23fff'/%3e%3c/svg%3e");
@@ -3810,7 +3812,9 @@ textarea.form-control-lg {
   flex-grow: 1;
   align-items: center;
 }
-
+.section-responsive-phone{
+  padding: 0 0;
+}
 .navbar-toggler {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
   font-size: var(--bs-navbar-toggler-font-size);
@@ -3820,6 +3824,7 @@ textarea.form-control-lg {
   border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
   border-radius: var(--bs-navbar-toggler-border-radius);
   transition: var(--bs-navbar-toggler-transition);
+  height: 50px;
 }
 @media (prefers-reduced-motion: reduce) {
   .navbar-toggler {
@@ -10818,4 +10823,15 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+  
+  @media  (max-width: 600px) and  (min-width: 200px) {
+
+    .section-responsive-phone{
+       width: 20px;
+    }
+    .img-carousel{
+        width: 90%;
+    }
+
+}
 }/*# sourceMappingURL=main.css.map */
