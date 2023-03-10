@@ -14,6 +14,9 @@
   border-radius: 20px;
 
 }
+.nav-item-header{
+	padding: 0 15px;
+}
 .card::before{
   content: "";
   position: absolute;
@@ -89,11 +92,10 @@ section .card-s .image img{
 
 .card-c {
 	background-color: #FFF;
-	box-shadow: 1px rgba(#000, .05), 0 20px 50px 0 rgba(#000, .1);
+	box-shadow: 0 0 3em 1em rgba(0,0,0,0.1);
 	border-radius: 20px;
 	border: 1 px solid var(--gray-light);
 	overflow: hidden;
-	padding: 1.25rem;
 	position: relative;
 	transition: .15s ease-in;
 
@@ -155,6 +157,7 @@ section .card-s .image img{
 	color: #565656;
 	position: relative;
   bottom: 50px;
+  right: 40px;
 }
 
 .card-footer-c {
@@ -196,4 +199,21 @@ padding-top: 5px;
 	bottom: 150px;
 	padding-left: 15px;
 	padding-top: 5px;
+}
+
+@media  (max-width: 600px) and  (min-width: 200px) {
+	.buttonleft{
+		left: 10%;
+	bottom: 90px;
+
+	}
+	.buttonright{
+		position: relative;
+		left: 85%;
+		bottom: 110px;
+
+	}
+	.icon-button-c {
+		right: 50px;
+	}
 }

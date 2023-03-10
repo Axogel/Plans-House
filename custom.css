@@ -3,13 +3,49 @@
     --blue-dark: #19437A;
     --blue-light: #0187FF;
     --gray: #999;
-    --gray-light: #f8f5f5;
+    --gray-light: #e6e1e1;
+    --back-gray: #FAFAFC;
     --red: rgb(255, 0, 38);
+}
+/* .nav-item-header{
+    width: 15%;
+} */
+.div-photo-carousel{
+margin-left: 3%;
 }
 li{
     list-style:none;
 }
-
+.question-text-title{
+    font-size: 44px;
+}
+.form-check-accordion-1[type=checkbox] {
+    border-radius: 50%;
+    background-color: #b01010;
+    border: 1px solid #000;
+  }
+  .form-check-input:focus {
+    border-color: #86b7fe;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  }
+  .form-check-input:checked {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+  
+  }
+  .form-check-input[type=checkbox]:indeterminate {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3e%3cpath fill='none' stroke='%23fff' stroke-linecap='round' stroke-linejoin='round' stroke-width='3' d='M6 10h8'/%3e%3c/svg%3e");
+  }
+  .form-check-input:checked[type=checkbox] + label  {
+    background:url("https://pbs.twimg.com/profile_images/550291079719698432/LbybHjIh.jpeg")
+  
+  }
+.section-carrousel-accordion{
+    background-color: var(--back-gray);
+}
 .carousel-dark slide{
     height: 50%;
 }
@@ -110,7 +146,7 @@ li{
 }
 .add-car{
     background-color: var(--blue-dark);
-    border-radius: 5px;
+    border-radius: 18px;
     color: #fff;
     border: none;
     height: 70px;
@@ -167,7 +203,14 @@ margin-left: 5%;
   }
   .div-icons-house{
     border-right:1px solid var(--gray-light) ;
-    width: 200px;
+    width: 80px;
+    padding: 0 10px;
+  }
+  /* div icons more large */
+  .div-icons-house-l{
+    border-right:1px solid var(--gray-light) ;
+    width: 98px;
+    padding: 0 2px;
   }
 
   .text-align-end{
@@ -189,6 +232,7 @@ margin-left: 5%;
   }
   .question-section{
     background-color: var(--gray-light);
+    border-radius: 1.5rem;
   }
   .form-text{
     height: 200px;
@@ -247,6 +291,7 @@ margin-left: 5%;
     color: var(--blue-dark);
     padding: 18px;
     border-radius: 10px;
+    background-color: #fff;
 }
 .img-card-footer{
     border-radius: 100%;
@@ -289,15 +334,17 @@ bottom: 5px;
 	border: 10px solid #EFEFEF;
     width: 140px;
 }
-
+.img-card-carrousel{
+  width:   60%;
+}
 
 @media  (max-width: 600px) and  (min-width: 200px) {
     .section-slide{
    display: none;
     }
-    .section-hidden{
+    /* .section-hidden{
         display: none;
-    }
+    } */
     .img-carousel{
         margin-right: 100px;
    
@@ -310,7 +357,8 @@ bottom: 5px;
         bottom: 20px;
     }
     .icon-button-c{
-        right: 20px;
+        position: relative;
+        right: 50px;
         bottom: 60px;
     }
     .section-responsive-phone{
@@ -325,10 +373,9 @@ bottom: 5px;
     .div-detailsAFeatures{
         justify-content: center;
     }
-    .sumbmit-now{
+    .submit-div-now{
         position: relative;
-   right: 50%;
-   justify-content: center;
+        right: 55px;
     }
     .words-responsive{
         position: relative;
