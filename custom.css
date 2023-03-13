@@ -7,9 +7,7 @@
     --back-gray: #FAFAFC;
     --red: rgb(255, 0, 38);
 }
-/* .nav-item-header{
-    width: 15%;
-} */
+
 .div-photo-carousel{
 margin-left: 3%;
 }
@@ -97,6 +95,8 @@ li{
     background-color: var(--blue-dark) !important;
     border-radius: 0px 5px 5px 0px !important;
     z-index: 10;
+    position: relative;
+    right: 14.5%;
 }
 .btn-outline-success{
     height: 50px;
@@ -104,12 +104,11 @@ li{
     margin-right: 10px;
 }
 .bar-search{
-    position: relative ; 
-    left: 57px;
     background-color: #fffcfce8;
     border-radius: 5px;
-    width: 350px;
-    padding-right: 6px;
+    width: 120px;
+
+
 }
 .item-nav{
     color: #000;
@@ -140,6 +139,14 @@ li{
     z-index: 20;
     width: 50px;
     height: 50px;
+}
+.btn-shop-nlue{
+    background-color: #fff;
+    border-radius: 10px;
+    border: 3px solid var(--blue-dark);
+    color: var(--blue-dark);
+    width: 60%;
+    height: 40%;
 }
 .icons-nav{
     font-size: 25px;
@@ -187,6 +194,15 @@ li{
   color: #fff;
     border: none;
     border-radius: 5px;
+}
+.div-phoneaSearch{
+    width: 30%;
+}
+.nav-item-header{
+    width: 25vh;
+}
+.nav-item-header-1{
+    width: 20vh;
 }
 .detail{
     width: 100%;
@@ -312,9 +328,7 @@ margin-left: 5%;
     background-color: var(--blue-dark);
     border-radius: 50px;
 }
-.section-responsive-phone{
-    margin-left: 10%;
-}
+
 .alert-card{
     background-color: #fff;
     position: relative;
