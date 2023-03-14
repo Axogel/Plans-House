@@ -363,6 +363,12 @@ bottom: 5px;
         margin-right: 100px;
    
     }
+    .email-responsive{
+        width: 100%;
+    }
+    .padding-left-responsive{
+        padding-left: 2px;
+    }
     .div-df{
         margin-right: 20%; 
     }
@@ -376,7 +382,7 @@ bottom: 5px;
         bottom: 60px;
     }
     .section-responsive-phone{
-       width: 50%;
+       width: 40%;
     }
     .img-carousel{
         width: 90%;
