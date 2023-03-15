@@ -351,20 +351,29 @@ bottom: 5px;
 .img-card-carrousel{
   width:   60%;
 }
+.name-imput{
+    width: 100%;
+}
 
 @media  (max-width: 600px) and  (min-width: 200px) {
     .section-slide{
    display: none;
     }
+    .name-imput{
+        width: 90%
+    }
     /* .section-hidden{
         display: none;
     } */
+    .fall-move-in{
+        display: none;
+    }
     .img-carousel{
         margin-right: 100px;
    
     }
     .email-responsive{
-        width: 100%;
+        width: 90%;
     }
     .padding-left-responsive{
         padding-left: 2px;
