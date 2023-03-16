@@ -354,10 +354,19 @@ bottom: 5px;
 .name-imput{
     width: 100%;
 }
+.img-visibily-rsponsive{
+display: none;
+}
 
 @media  (max-width: 600px) and  (min-width: 200px) {
     .section-slide{
    display: none;
+    }
+    .img-visibily-rsponsive{
+       display: block;  
+     }
+    .img-hidden-title{
+        display: none;
     }
     .name-imput{
         width: 90%
